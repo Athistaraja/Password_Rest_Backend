@@ -25,7 +25,7 @@ app.get("/", (req, res)=>{
 })
 
 //Initializing the port number
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 4321;
 
 app.listen(PORT, ()=>{
     console.log(`Application is running on PORT ${PORT}`);
